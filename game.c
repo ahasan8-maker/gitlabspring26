@@ -120,7 +120,7 @@ bool getChoiceDL(void);
 void jkFun(void);
 void jkRoom41(void); 
 
-
+void printInitialsAHasan(void);
 
 int main(int argc, char *argv[])
 {
@@ -954,6 +954,10 @@ int main(int argc, char *argv[])
 }
 
 //place function definitions below this comment
+void printInitialsAHasan(void)
+{
+    printf("AH\n");
+}
 void room58SM(void)
 {
 	int candles[6] = {0, 0, 0, 0, 0, 0};
